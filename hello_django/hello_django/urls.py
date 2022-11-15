@@ -18,8 +18,8 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
-    path('', admin.site.urls), #вывод страницы по умолчанию
+    path('admin/', admin.site.urls),
+    # path('', admin.site.urls), #вывод страницы по умолчанию
     path('about/', views.about),
     path('home/', views.home)
 ]
